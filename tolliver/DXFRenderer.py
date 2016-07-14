@@ -3,7 +3,7 @@ import ezdxf
 class DXFRenderer:
 
     def __init__(self, filename):
-        self.dxf = ezdxf.new('AC1027')
+        self.dxf = ezdxf.new('R12')
         self.filename = filename
 
     def __enter__(self):
